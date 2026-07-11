@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './Home/home';
+import  Home from './Home/home';
 import { Route, Routes } from "react-router-dom"
 import Skills from './pages/skills/skills';
 import { BrowserRouter } from 'react-router-dom';

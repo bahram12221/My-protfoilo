@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import style from "./works.module.css";
 import Navbar from "../../components/Navbar/navbar";
 import { FiExternalLink } from "react-icons/fi";
-import { FaGithub } from "react-icons/fa";
 import Footer from "../../components/Navbar/footer/footer";
 function Works() {
   const [project, setProject] = useState([]);
@@ -26,15 +25,15 @@ function Works() {
         {project.map((project) => (
           <div className={style.parent} key={project.id}>
             <div className={style.container}>
-              <img style={{ width: "100%" }} src={project.imgUrl} />
+              <img style={{ width: "100%" }} src={project.imgUrl} alt="img" />
               <div className={style.texts}>
                 <h1 style={{ color: "white" }}>{project.siteName}</h1>
                 <p style={{ color: "gray" }} className={style.p}>
                   {project.information}
                 </p>
                   {project.liveDemoUrl}
-                  <a style={{padding:"5px 4px"}} className={style.btn} href="">
-                  <a className={style.btn} href="#">
+                  <a style={{padding:"5px 4px"}} className={style.btn} href="p">
+                  <a className={style.btn} href="p">
                     <FiExternalLink /> Live Demo
                   </a>
                 </a>

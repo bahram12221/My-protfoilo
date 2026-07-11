@@ -1,0 +1,60 @@
+.parent {
+  width: 23%;
+  margin: 20px ;
+
+}
+
+.b {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+ margin: 150px auto 0;
+  
+
+}
+.container {
+  width: 100%;
+  background-color: rgb(17, 17, 19);
+  text-align: justify;
+  border-radius: 10px;
+ overflow: hidden;
+}
+
+.texts {
+  padding: 0 20px 30px;
+  display: grid;
+  gap: 20px;
+}
+
+.btn{
+    background-color: rgb(21, 21, 194);
+    width: 110px;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 5px;
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+  .parent{
+    width: 35%;
+    
+  }
+
+  .texts h1{
+    font-size: 20px;
+  }
+} 
+
+@media(max-width: 767px){
+  .b{
+    margin-top: 0px;
+    padding-top: 150px;
+    display: block;
+  }
+  .parent{
+    width: 50%;
+    margin: 50px auto;
+  }
+}

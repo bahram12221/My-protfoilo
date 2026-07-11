@@ -1,0 +1,17 @@
+.footer{
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 30px;
+}
+
+.icons{
+   font-size: 30px;
+   margin: 50px 0;
+}
+
+@media(max-width: 1023px){
+    .footer{
+        font-size: 15px;
+    }
+}

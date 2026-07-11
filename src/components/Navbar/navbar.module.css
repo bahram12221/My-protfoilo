@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    direction: rtl;
+    justify-content: space-around;
+    width: 100%;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+    font-family: Arimo;
+    padding: 5px 10px;
+
+    
+}
+
+
+
+.activelink {
+  background-color: #0303aa;
+  padding: 5px 10px;  
+  color: rgb(255, 255, 255);              
+  border-radius: 8px;        
+}
+
+.container{
+    width: 60%;
+}
+
+.parent{
+    direction: rtl;
+    margin-right: 100px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+.humburger{
+    display: none;
+    cursor: pointer;
+}
+
+.visible{
+  background: rgba(30, 30, 40, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+    visibility: visible;
+    margin-right: 20px;
+    list-style-type: none;
+    opacity: 1;
+    padding: 10px 10px 30px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.color{
+    color: rgb(255, 255, 255);
+}
+.navColor{
+    color: black;
+}
+
+@media (max-width: 768px){
+    .parent{
+        margin-right: 0;
+        position: fixed;
+        top: 10px;
+        right: 0;
+        z-index: 1000;
+        
+    }
+
+    .navbar{
+        visibility: hidden;
+        font-size: 10px;
+        width: 100%;
+        
+        
+    }
+    
+    .li{
+        margin-top: 10px;
+       
+        
+    }
+    .humburger{
+        display: block;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+  
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+    .navbar{
+        width: 90%;
+    }
+}

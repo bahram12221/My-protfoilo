@@ -1,0 +1,52 @@
+
+
+.contactBox{
+    display: grid;
+    width: 250px;
+    margin: 100px auto 0;
+    gap: 10px;
+    border: 1px solid rgb(79, 79, 79);
+    padding: 20px;
+    background-color: rgb(1, 1, 39);
+    color: lightgray;
+    box-shadow:0 0 10px rgb(96, 94, 94);
+    border-radius: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+textarea{
+    padding: 5px;
+    height: 80px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    font-size: medium;
+}
+
+
+.div{
+    padding: 40px;
+    background-color: red;
+    color: yellow;
+}
+
+.d{
+    padding: 100px;
+    background-color: yellow;
+    color: red;
+}
+
+@media(max-width: 767px){
+    .contactBox{
+        font-size: 15px;
+    }
+    button{
+        font-size: 10px;
+    }
+}

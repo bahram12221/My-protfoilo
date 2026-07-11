@@ -1,0 +1,96 @@
+.parent{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.frontEnd{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.frontIcons{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.backEnd{
+    width: 25%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.backIcons{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.tools{
+    width: 45%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.toolsIcons{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.disgin{
+    margin-top: 50px;
+    display: flex;
+    width: 17%;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 768px){
+    .parent{
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+    .frontEnd{
+        display: grid;
+        gap: 30px;
+        margin:90px auto;
+    }
+    .frontIcons{
+        display: inline-block;
+        margin: auto;
+        width: 90%;
+    }
+    .backEnd{
+        display: grid;
+        gap: 30px;
+        margin:90px auto;
+    }
+    .backIcons{
+        margin: auto;
+        width: 100%;
+    }
+    .tools{
+        display: grid;
+        gap: 30px;
+        margin:90px auto;
+    }
+    .toolsIcons{
+        display: inline-block;
+        margin: auto;
+        width: 70%;
+    }
+    .disgin{
+        display: grid;
+        gap: 30px;
+        margin:90px auto;
+    }
+}

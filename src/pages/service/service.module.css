@@ -1,0 +1,228 @@
+.container {
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.loptopPArent {
+  width: 75%;
+  height: 600px;
+  
+}
+
+.laptopDesign {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  position: relative;
+  background-color: rgb(4, 4, 18);
+}
+
+.h2Parent {
+  color: rgb(10, 234, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineRight {
+  height: 2px;
+  padding: 0 40px;
+  background-color: rgb(10, 234, 10);
+  border-radius: 1px;
+  margin-left: 30px;
+}
+
+.lineLeft {
+  height: 2px;
+  padding: 0 40px;
+  background-color: rgb(10, 234, 10);
+  border-radius: 1px;
+  margin-right: 30px;
+}
+
+.mobilParent{
+  width: 25%;
+  height: 600px;
+  
+}
+
+.mobilDesign {
+  width: 80%;
+  aspect-ratio: 7.7 / 16;
+  background-color: rgb(4, 4, 18);
+  position: relative;
+}
+
+.para{
+  color:gray;
+  margin-top:5px;
+  font-size:20px
+}
+
+.h3ParentMobil {
+  color: rgb(10, 234, 10);
+  font-size: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineRightMobil {
+  height: 2px;
+  padding: 0 10%;
+  background-color: rgb(10, 234, 10);
+  border-radius: 1px;
+  margin-left: 20px;
+}
+
+.lineLeftMobil {
+  height: 2px;
+  padding: 0 10%;
+  background-color: rgb(10, 234, 10);
+  border-radius: 1px;
+  margin-right: 20px;
+}
+
+.firstBox {
+  background: linear-gradient(to bottom, rgb(117, 2, 117), rgb(46, 1, 46));
+  padding: 10px 10px 40px;
+  width: 25%;
+  min-width: 220px;
+  min-height: 150px;
+  display: grid;
+  border-radius: 10px;
+  color: lightgray;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.secondBox {
+  background: linear-gradient(to bottom, rgb(117, 2, 117), rgb(46, 1, 46));
+  width: 20%;
+  min-height: 150px;
+  padding: 10px 10px 40px;
+  border-radius: 10px;
+  color: lightgray;
+  position: absolute;
+  right: 25%;
+  bottom: 25%;
+}
+
+.mobilFirstBox {
+  background: linear-gradient(to bottom, rgb(117, 2, 117), rgb(46, 1, 46));
+  width: 80%;
+  padding: 5px 5px 20px;
+  border-radius: 7px;
+  color: lightgray;
+  margin: 40% auto 40%;
+  font-size: 70%;
+}
+
+.mobilSecondBox {
+  background: linear-gradient(to bottom, rgb(117, 2, 117), rgb(46, 1, 46));
+  width: 80%;
+  padding: 5px 5px 20px;
+  border-radius: 7px;
+  color: lightgray;
+  margin: auto;
+  font-size: 70%;
+
+}
+
+h2,
+h3 {
+  font-size: 100%;
+}
+p {
+  font-size: 100%;
+}
+
+ 
+@media(min-width: 768px) and (max-width: 1023px){
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    
+    
+    
+  }
+.loptopPArent{
+  margin-top: 10%;
+}
+  .firstBox{
+    min-width: 150px;
+    
+  }
+  .secondBox{
+    min-width: 150px;
+    left: 60%;
+  }
+  
+  .para{
+   font-size: 15px;
+  }
+
+  .mobilFirstBox{
+    margin: 20% auto;
+  }
+  
+  
+}
+
+@media(max-width: 767px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstBox{
+    min-width: 100px;
+    font-size: 8px;
+    padding: 5px;
+    min-height: auto;
+    left: 10%;
+
+  }
+  .secondBox{
+    min-width: 100px;
+    font-size: 8px;
+    padding: 5px;
+    min-height: auto;
+    left: 55%;
+  }
+
+  .loptopPArent{
+    margin-top: 10%;
+    height: 250px;
+}
+
+  
+
+  .para{
+    font-size: 8px;
+  }
+
+  .h2Parent{
+    font-size: 10px;
+  }
+
+  .lineLeft,
+  .lineRight{
+    padding: 1px 10px;
+    margin: 5px;
+  }
+
+  .mobilParent{
+    width: 300px;
+    margin: auto;
+  }
+  .mobilDesign{
+    margin: auto;
+  }
+}

@@ -2,7 +2,7 @@
   "name": "my-protfoilo",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://bahram12212.github.io/My-protfoilo",
+  "homepage":"/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

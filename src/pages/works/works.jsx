@@ -9,7 +9,7 @@ function Works() {
 
   useEffect(() => {
     axios
-      .get(`${"https://protfoilo-api-5.onrender.com/"}/project`)
+      .get(`${"https://protfoilo-api-5.onrender.com/"}/projects`)
       .then((result) => {
         setProject(result.data);
       })

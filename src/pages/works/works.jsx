@@ -4,7 +4,7 @@ import style from "./works.module.css";
 import Navbar from "../../components/Navbar/navbar";
 import { FiExternalLink } from "react-icons/fi";
 import Footer from "../../components/Navbar/footer/footer";
-import restaurant from "./restaurant.webp"
+import restaurant from "./restaurant2.webp"
 function Works() {
   const [project, setProject] = useState([]);
 

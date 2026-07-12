@@ -9,7 +9,7 @@ function Works() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:1000/projects")
+      .get(`${"https://protfoilo-api-5.onrender.com/"}/project`)
       .then((result) => {
         setProject(result.data);
       })

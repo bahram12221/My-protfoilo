@@ -4,6 +4,7 @@ import style from "./works.module.css";
 import Navbar from "../../components/Navbar/navbar";
 import { FiExternalLink } from "react-icons/fi";
 import Footer from "../../components/Navbar/footer/footer";
+import restaurant from "./restaurant.webp"
 function Works() {
   const [project, setProject] = useState([]);
 
@@ -25,7 +26,7 @@ function Works() {
         {project.map((project) => (
           <div className={style.parent} key={project.id}>
             <div className={style.container}>
-              <img style={{ width: "100%" }} src={project.imgUrl} alt="img" />
+              <img style={{ width: "100%" }} src={restaurant} alt="img" />
               <div className={style.texts}>
                 <h1 style={{ color: "white" }}>{project.siteName}</h1>
                 <p style={{ color: "gray" }} className={style.p}>
@@ -33,7 +34,7 @@ function Works() {
                 </p>
                   {project.liveDemoUrl}
                   <a style={{padding:"5px 4px"}} className={style.btn} href="p">
-                  <a className={style.btn} href="p">
+                  <a className={style.btn} href={project.liveDemoUrl}>
                     <FiExternalLink /> Live Demo
                   </a>
                 </a>

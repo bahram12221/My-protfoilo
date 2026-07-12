@@ -32,7 +32,6 @@ function Works() {
                 <p style={{ color: "gray" }} className={style.p}>
                   {project.information}
                 </p>
-                  {project.liveDemoUrl}
                   <a style={{padding:"5px 4px"}} className={style.btn} href="p">
                   <a className={style.btn} href={project.liveDemoUrl}>
                     <FiExternalLink /> Live Demo

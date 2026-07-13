@@ -16,7 +16,7 @@
 .container {
   width: 100%;
   background-color: rgb(17, 17, 19);
-  text-align: justify;
+  text-align: left;
   border-radius: 10px;
  overflow: hidden;
 }

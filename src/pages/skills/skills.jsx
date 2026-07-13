@@ -52,7 +52,7 @@ function Skills() {
             <br/>
             <hr />
             <div className={style.disgin}>
-                <h2>Disgin</h2>
+                <h2>Desgin</h2>
                 <img src={ps} alt="" />
             </div>
         </div>
